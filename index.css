@@ -51,14 +51,8 @@
 }
 
 body {
-  margin: 0;
-  background-image: url(https://plus.unsplash.com/premium_photo-1666278379770-440439b08656?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW5pbWFsc3xlbnwwfHwwfHx8MA%3D%3D);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0px;
+  background-color: darkturquoise;
 }
 
 #root {
@@ -92,6 +86,17 @@ h1 {
     margin: 20px 0;
   }
 }
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit:cover;
+  display:block;
+  margin: 0 auto 25px auto;
+  border: 5px solid black;
+}
+
 h2 {
   font-size: 24px;
   line-height: 118%;
